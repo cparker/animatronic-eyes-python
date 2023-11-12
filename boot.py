@@ -8,7 +8,7 @@ print("MAIN: Connecting to WiFi...")
 connectWIFI.connectWIFI(mysecrets.WIFI_SSID, mysecrets.WIFI_PASSWORD)
 
 OTA_UPDATE_GITHUB_REPOS = {
-    "cparker/animatronic-eyes-2": ["test.py"]
+    "cparker/animatronic-eyes-python": ["test.py"]
 }
 
 ota_updater = OTAUpdater(
